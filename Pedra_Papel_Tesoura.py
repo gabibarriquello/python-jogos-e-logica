@@ -6,7 +6,7 @@ jogador = int(input(('''Escolha a sua Jogada
 [ 3 ] Tesoura: ''')))
 computador = randint(1,3)
 if jogador == 1 and computador == 2:
-   print(f'VOCÊ VENCEU. Eu escolhi {computador}')
+   print(f'EU VENCI. Eu escolhi {computador}')
 elif jogador == 2 and computador == 3:
     print(f'EU VENCI. Eu escolhi {computador}')
 elif jogador == 3 and computador == 1:
